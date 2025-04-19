@@ -1,0 +1,12 @@
+prefix=c:/Users/lshre/Gen-AI/OpenAI/openvenv/Library
+exec_prefix=c:/Users/lshre/Gen-AI/OpenAI/openvenv/Library
+libdir=c:/Users/lshre/Gen-AI/OpenAI/openvenv/Library/lib
+includedir=c:/Users/lshre/Gen-AI/OpenAI/openvenv/Library/include
+
+Name: libzmq
+Description: 0MQ c++ library
+Version: 4.3.5
+Libs: -L${libdir} -lzmq
+Libs.private: 
+Requires.private: 
+Cflags: -I${includedir} 
